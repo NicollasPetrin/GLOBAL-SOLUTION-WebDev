@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solução contra Enchentes</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Solução Contra Enchentes</h1>
+      <button id="botaoMenu">☰</button>
+      <nav>
+        <ul>
+          <li><a href="#problema">Problema</a></li>
+          <li><a href="#tecnologia">Tecnologia</a></li>
+          <li><a href="#objetivos">Objetivos</a></li>
+          <li><a href="#publico">Público-Alvo</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#uso">Uso Diário</a></li>
+          <div id="temas">
+            <button class="temaBotao" onclick="mudarTema(0)">🌤️</button>
+            <button class="temaBotao" onclick="mudarTema(1)">🌑</button>
+            <button class="temaBotao" onclick="mudarTema(2)">🌸</button>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <nav>
+      <section>
+        <div class="slideshow-container">
+          <div class="slide fade">
+            <img src="src/imgs/rua alagada.jpg" alt="Rua alagada durante uma enchente" />
+          </div>
+          <div class="slide fade">
+            <img src="src/imgs/sensores conectados.webp" alt="Sensores conectados" />
+          </div>
+          <div class="slide fade">
+            <img src="src/imgs/alerta celular.webp" alt="Pessoa recebendo alerta de enchente" />
+          </div>
+      
+          <a class="prev" onclick="mudarSlide(-1)">&#10094;</a>
+          <a class="next" onclick="mudarSlide(1)">&#10095;</a>
+        </div>
+  
+      </section>
+    </nav>
+
+    <main class="section-grid">      
+      <section id="problema">
+        <h2>O Problema</h2>
+        <p>Enchentes prejudicam moradias, mobilidade e serviços, causam perdas econômicas e ampliam desigualdades em áreas urbanas vulneráveis.</p>
+        <img src="src/imgs/rua alagada.jpg" alt="Rua alagada durante uma enchente" />
+      </section>
+
+      <section id="tecnologia">
+        <h2>Tecnologias Utilizadas</h2>
+        <p>Utilizamos sensores IoT e dados em tempo real para detectar enchentes e enviar alertas imediatos por aplicativo móvel.</p>
+        <img src="src/imgs/sensores conectados.webp" alt="Sensores conectados" />
+      </section>
+
+      <section id="objetivos">
+        <h2>Objetivos</h2>
+        <p>Reduzir danos causados por enchentes com alertas rápidos e precisos. Facilitar a tomada de decisão de moradores e autoridades.</p>
+        <img src="src/imgs/alerta celular.webp" alt="Pessoa recebendo alerta de enchente" />
+      </section>
+
+      <section id="publico">
+        <h2>Público-Alvo</h2>
+        <p>Comunidades urbanas em áreas de risco de enchentes frequentes. Órgãos públicos e defesa civil local.</p>
+        <img src="src/imgs/monitoramento.jpeg" alt="Comunidade em área de risco sendo monitorada" />
+      </section>
+
+      <section id="beneficios">
+        <h2>Benefícios</h2>
+        <p>Reduz prejuízos financeiros, aumenta a segurança e melhora o planejamento urbano, com fácil integração aos sistemas existentes.</p>
+        <img src="src/imgs/probabilidade-1.png" alt="Gráfico de redução de riscos" />
+      </section>
+
+      <section id="uso">
+        <h2>Uso Diário</h2>
+        <p>Usuários recebem alertas em tempo real sobre riscos de enchentes, permitindo planejamento e ações preventivas.</p>
+        <img src="src/imgs/usuario usando aplicativo.jpg" alt="Usuário usando aplicativo de alerta" />
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Solução Contra Enchentes. Todos os direitos reservados.</p>
+      <p>Desenvolvido por ®Marco Junqueira, Nicollas Petrin e Gabriel Borghi®</p>
+    </footer>
+
+    <script src="src/js/index.js" defer></script>
+  </body>
+
+</html>
