@@ -196,3 +196,14 @@ footer {
   background-color: var(--cor-primaria);
   color: white;
 }
+
+.contato {
+  display: block;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contato:hover{
+  color: var(--cor-destaque);
+}
