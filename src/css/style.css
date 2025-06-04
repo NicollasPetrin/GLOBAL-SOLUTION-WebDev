@@ -148,6 +148,11 @@
       width: 300px;
     }
 
+    #tecnologia img {
+      height: 300px;
+      width: 700px;
+    }
+
     section h2 {
       color: var(--cor-primaria);
       margin-bottom: 1rem;
