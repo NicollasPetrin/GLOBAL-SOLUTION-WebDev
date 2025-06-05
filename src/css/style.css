@@ -32,6 +32,10 @@
       margin-bottom: 0.5rem;
     }
 
+    nav {
+      margin-top: 50px;
+    }
+
     nav ul {
       list-style: none;
       display: flex;
